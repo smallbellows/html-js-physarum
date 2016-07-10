@@ -1,0 +1,13 @@
+$color__font: black;
+$color__font-secondary: #403D3E;
+$color__brand: #FE5F01;
+
+$border__feature: 5px solid $color__brand;
+$border__standard: 1px solid $color__font-secondary;
+$border__hover: 1px solid $color__brand;
+
+@mixin media-q {
+  @media screen and (min-width: 600px) {
+    @content;
+  }
+}
